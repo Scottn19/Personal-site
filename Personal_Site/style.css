@@ -1,0 +1,42 @@
+#div1  {
+    background-color: rgb(224, 215, 204);
+  width: 500px;
+  border: 20px solid rgb(24, 123, 193);
+  padding: 40px;
+  margin: 35px;
+}
+#div2  {
+    background-color: rgb(224, 215, 204);
+  width: px;
+  line-height: 15px;
+  border: 10px solid rgb(9, 179, 162);
+  padding: 4px;
+  margin: 3px;
+}
+#div3 {background-color: aquamarine;
+width: 1200px;
+height: 700px;
+
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}
+
+
+.grid-layout div{
+  background-color: lightgreen;
+  color: green;
+  min-height: 100px;
+  gap: 10px;
+}
+
+
+.item-1{ 
+  grid-area: header;
+  
+}
